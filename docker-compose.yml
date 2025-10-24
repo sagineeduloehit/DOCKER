@@ -22,7 +22,7 @@ services:
     container_name: springboot
     image: loehitsagineedu/gitactions-backend:latest
     ports:
-      - "2025:2000"
+      - "2025:2006"
     depends_on:
       mysqldb:
         condition: service_healthy
